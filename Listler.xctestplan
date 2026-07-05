@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "9DDFC10B-A8AF-45BC-BFAE-4C2A75BCFACC",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Listler.xcodeproj",
+      "identifier" : "825DB493AF87FFD027116CF0",
+      "name" : "Listler"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Listler.xcodeproj",
+        "identifier" : "54B1436B2FFADE6100033914",
+        "name" : "ListlerTests"
+      }
+    }
+  ],
+  "version" : 1
+}

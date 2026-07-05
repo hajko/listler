@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22C54E153A1A6537B2969D5F /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A6E56551828EFBD5311AB /* App.swift */; };
+		547D9F332FF8E0A4006D3A40 /* ListlerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547D9F322FF8E0A4006D3A40 /* ListlerModel.swift */; };
+		54C107D62FEE216900FEC87C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 54C107D52FEE216900FEC87C /* README.md */; };
+		54C107D82FF83ACC00FEC87C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 54C107D72FF83ACC00FEC87C /* .gitignore */; };
+		8A5EF06E39FA0335631148B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E9C574DE4952F8A91105624 /* Assets.xcassets */; };
+		DAB5660C7C0C86BA77E9CF6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D12E90DDE39E90FA5117BAC /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54B143702FFADE6100033914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 952FB8752BDC02287F6879DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 825DB493AF87FFD027116CF0;
+			remoteInfo = Listler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E9C574DE4952F8A91105624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		547D9F322FF8E0A4006D3A40 /* ListlerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListlerModel.swift; sourceTree = "<group>"; };
+		54B143632FF9E74700033914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54B143652FFAD7F500033914 /* ModelBasicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBasicsTests.swift; sourceTree = "<group>"; };
+		54B143662FFAD7F500033914 /* PersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceTests.swift; sourceTree = "<group>"; };
+		54B1436C2FFADE6100033914 /* ListlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B143792FFADE8E00033914 /* Listler.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Listler.xctestplan; sourceTree = "<group>"; };
+		54C107D52FEE216900FEC87C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54C107D72FF83ACC00FEC87C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5DF03FAEE509F22D40A619E3 /* Listler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Listler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		687A6E56551828EFBD5311AB /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		9D12E90DDE39E90FA5117BAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54B143692FFADE6100033914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168789EB73A8BF47B5722B8C = {
+			isa = PBXGroup;
+			children = (
+				54B143792FFADE8E00033914 /* Listler.xctestplan */,
+				54B143672FFAD7F500033914 /* ListlerTests */,
+				9C31D98F7AF344300C1F785E /* App */,
+				EFCA1D2B3EDAB6E38F6EC621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54B143672FFAD7F500033914 /* ListlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				54B143652FFAD7F500033914 /* ModelBasicsTests.swift */,
+				54B143662FFAD7F500033914 /* PersistenceTests.swift */,
+			);
+			path = ListlerTests;
+			sourceTree = "<group>";
+		};
+		9C31D98F7AF344300C1F785E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				54B143632FF9E74700033914 /* Info.plist */,
+				687A6E56551828EFBD5311AB /* App.swift */,
+				1E9C574DE4952F8A91105624 /* Assets.xcassets */,
+				9D12E90DDE39E90FA5117BAC /* ContentView.swift */,
+				54C107D52FEE216900FEC87C /* README.md */,
+				54C107D72FF83ACC00FEC87C /* .gitignore */,
+				547D9F322FF8E0A4006D3A40 /* ListlerModel.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EFCA1D2B3EDAB6E38F6EC621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DF03FAEE509F22D40A619E3 /* Listler.app */,
+				54B1436C2FFADE6100033914 /* ListlerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54B1436B2FFADE6100033914 /* ListlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54B143722FFADE6100033914 /* Build configuration list for PBXNativeTarget "ListlerTests" */;
+			buildPhases = (
+				54B143682FFADE6100033914 /* Sources */,
+				54B143692FFADE6100033914 /* Frameworks */,
+				54B1436A2FFADE6100033914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54B143712FFADE6100033914 /* PBXTargetDependency */,
+			);
+			name = ListlerTests;
+			packageProductDependencies = (
+			);
+			productName = ListlerTests;
+			productReference = 54B1436C2FFADE6100033914 /* ListlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		825DB493AF87FFD027116CF0 /* Listler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00641FC96707BCFDB4FDB076 /* Build configuration list for PBXNativeTarget "Listler" */;
+			buildPhases = (
+				08709E14E98648AE0795573C /* Sources */,
+				DF38960D7B688B2728AE0506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Listler;
+			packageProductDependencies = (
+			);
+			productName = "List Randomizer";
+			productReference = 5DF03FAEE509F22D40A619E3 /* Listler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		952FB8752BDC02287F6879DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					54B1436B2FFADE6100033914 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = 825DB493AF87FFD027116CF0;
+					};
+				};
+			};
+			buildConfigurationList = A05F8B78371E813D8AF98AF5 /* Build configuration list for PBXProject "Listler" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 168789EB73A8BF47B5722B8C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EFCA1D2B3EDAB6E38F6EC621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				825DB493AF87FFD027116CF0 /* Listler */,
+				54B1436B2FFADE6100033914 /* ListlerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54B1436A2FFADE6100033914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF38960D7B688B2728AE0506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C107D62FEE216900FEC87C /* README.md in Resources */,
+				54C107D82FF83ACC00FEC87C /* .gitignore in Resources */,
+				8A5EF06E39FA0335631148B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08709E14E98648AE0795573C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C54E153A1A6537B2969D5F /* App.swift in Sources */,
+				547D9F332FF8E0A4006D3A40 /* ListlerModel.swift in Sources */,
+				DAB5660C7C0C86BA77E9CF6C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54B143682FFADE6100033914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54B143712FFADE6100033914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 825DB493AF87FFD027116CF0 /* Listler */;
+			targetProxy = 54B143702FFADE6100033914 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		276FE570A3039EB4D72BC08F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2LU362NPS6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		54B143732FFADE6100033914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LU362NPS6;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jko.ListlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Listler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Listler";
+			};
+			name = Debug;
+		};
+		54B143742FFADE6100033914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LU362NPS6;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jko.ListlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Listler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Listler";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5903902E731783274E541CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 2LU362NPS6;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.bitrig.new.5dc2f84c-8f39-4786-91f3-9a5b163db317";
+				PRODUCT_NAME = Listler;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84DC8EFE76E289A0380333BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2LU362NPS6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E19BA3256CBFFDFF54CD48AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 2LU362NPS6;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.bitrig.new.5dc2f84c-8f39-4786-91f3-9a5b163db317";
+				PRODUCT_NAME = Listler;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00641FC96707BCFDB4FDB076 /* Build configuration list for PBXNativeTarget "Listler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19BA3256CBFFDFF54CD48AB /* Debug */,
+				5903902E731783274E541CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		54B143722FFADE6100033914 /* Build configuration list for PBXNativeTarget "ListlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B143732FFADE6100033914 /* Debug */,
+				54B143742FFADE6100033914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A05F8B78371E813D8AF98AF5 /* Build configuration list for PBXProject "Listler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DC8EFE76E289A0380333BD /* Debug */,
+				276FE570A3039EB4D72BC08F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 952FB8752BDC02287F6879DE /* Project object */;
+}
